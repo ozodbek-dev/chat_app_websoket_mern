@@ -1,0 +1,26 @@
+{
+	"name": "chat_app_socketio",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc",
+		"server": "nodemon ./src/app.ts",
+		"start": "node ./dist/app.js",
+    "client:dev":"npm start --prefix ./client",
+    "server:dev":"yarn server",
+    "dev":"concurrently \"yarn client:dev\" \"yarn server:dev\" "
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/express": "^4.17.17",
+		"@types/node": "^20.6.0",
+		"concurrently": "^8.2.1",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"nodemon": "^3.0.1",
+		"ts-node": "^10.9.1"
+	}
+}

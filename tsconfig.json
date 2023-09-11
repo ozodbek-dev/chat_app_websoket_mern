@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"target": "es2016",
+		"module": "CommonJS",
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"skipDefaultLibCheck": false,
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true
+	},
+	"include": ["./src"]
+}
